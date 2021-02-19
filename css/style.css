@@ -1,1 +1,43 @@
-/* Denna fil skall innehålla din CSS kod */
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: sans-serif;
+    
+}
+
+h1 {
+    font-family: cursive;
+    background-color: #E69F91;
+    height: 13vh;
+    text-align: center;
+    line-height: 13vh; /*Varje rad*/
+    color: #3C627D;
+    
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+}
+
+.navLinks {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background-color: #B08A89;
+    width: 100%;
+    height: 5vh;
+  
+
+}
+
+.navLinks li {
+    list-style: none;
+    padding-left: 7px;
+    padding-right: 7px;
+}
+
+.navLinks a {
+    color: #3C627D;
+}
