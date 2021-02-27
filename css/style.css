@@ -9,6 +9,10 @@ body {
     display: flex;
     flex-direction: column;
     flex:1;
+    background-image: url("/img/indexbild.jpg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: 100%;
     
 }
 
@@ -25,6 +29,7 @@ h1 {
 nav {
     display: flex;
     justify-content: center;
+    
 }
 
 .navLinks {
@@ -51,8 +56,35 @@ nav {
     color: #3C627D;
 }
 
+.info {
+    background-color: white;
+    padding-bottom: 30px;
+    text-align: center;
+    height: 100%;
+    margin-top: 20vh;
+}
+
+.omossinfo {
+    background-color: white;
+    padding-bottom: 30px;
+    text-align: center;
+    height: 100%;
+}
+
+.info p{
+    margin-top: 10px;
+    color: rgb(29, 28, 28);
+}
+
 footer {
-    background-color: black;
-    margin-top: auto;
-    
+    background-image: linear-gradient(white, #3C627D);
+    margin-top: auto; 
+    display: flex;
+    justify-content: center;
+}
+
+.footer{
+    list-style: none;
+    padding: 20px;
+
 }
