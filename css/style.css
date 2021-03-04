@@ -31,6 +31,16 @@ h2 {
     margin-top: 5vh;
 }
 
+h3 {
+    margin-top: 5vh;
+}
+
+p {
+    padding-left: 6vh;
+    padding-right: 6vh;
+    direction: ltr;
+}
+
 img {
     margin-top: 10vh;
 }
@@ -73,7 +83,7 @@ nav {
     margin-top: 20vh;
 }
 
-.omossinfo {
+.omraseninfo {
     background-color: white;
     padding-bottom: 30px;
     text-align: center;
@@ -83,6 +93,7 @@ nav {
 .info p{
     margin-top: 10px;
     color: rgb(29, 28, 28);
+    font-size: small;
 }
 
 footer {
