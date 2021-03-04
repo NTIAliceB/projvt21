@@ -25,7 +25,14 @@ h1 {
     text-align: center;
     line-height: 13vh; /*Varje rad*/
     color: #3C627D;
-    
+}
+
+h2 {
+    margin-top: 5vh;
+}
+
+img {
+    margin-top: 10vh;
 }
 
 nav {
